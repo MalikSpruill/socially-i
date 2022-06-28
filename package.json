@@ -1,0 +1,28 @@
+{
+  "name": "socially-i",
+  "version": "1.0.0",
+  "description": "A social network platform web application where users can share their thoughts, reacts to friends thoughts and lastly have access to creating a friend list.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalikSpruill/socially-i.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MalikSpruill/socially-i/issues"
+  },
+  "homepage": "https://github.com/MalikSpruill/socially-i#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
