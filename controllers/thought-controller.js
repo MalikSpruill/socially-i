@@ -43,7 +43,7 @@ const thoughtController = {
                 {new: true}
             );
         })
-        .then(userData => {
+        .then(thoughtData => {
             if (!thoughtData) {
                 res.status(404).json({message: 'No thoughts with this id'});
                 return;
